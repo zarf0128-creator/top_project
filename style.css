@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, Arial, sans-serif;
+    background-color: bisque;
+}
+#top{
+    margin:15px auto 15px auto;
+    width: 80%;
+    text-decoration: underline;
+    padding: 5px;
+    text-align: center;
+    background-color: burlywood;
+    border-radius: 5px;
+    
+}
+#top h1{
+    font-size: 50px;
+    display: inline-block;
+    border-radius: 5px;
+}
+#top p{
+    font-size: 20px;
+    background-color: burlywood;
+  
+}
+.foods{
+   
+    margin:15px auto 15px auto;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;  
+border-radius: 5px;
+}
+img{
+    border-radius: 5px;
+    width: 57%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    border: 3px solid black;
+    padding: 5px;
+    
+}
+a:hover{
+    color: white;
+    margin: 15px;
+}
